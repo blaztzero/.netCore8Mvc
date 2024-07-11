@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Practicas .net\\MvcEntity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\bonosfonasascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\bonosfonasascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\visitasenfermeriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\visitasenfermeriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\pacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\pacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|d:\\practicas .net\\mvcentity\\mvcentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09B897A2-6D98-48AD-917C-B5588DB142D1}|MvcEntity\\MvcEntity.csproj|solutionrelative:mvcentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:50:05.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T19:50:02.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T19:46:11.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BonosFonasasController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\BonosFonasasController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\BonosFonasasController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\BonosFonasasController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\BonosFonasasController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:06:30.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:51:12.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T19:46:08.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Pacientes\\Details.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Details.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Pacientes\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T02:18:01.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\PacientesController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\PacientesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T20:03:15.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "MvcEntity\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T22:34:00.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T19:54:11.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Models\\Context.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Models\\Context.cs",
+              "RelativeToolTip": "MvcEntity\\Models\\Context.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAowK4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:31:22.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VisitasEnfermeriumsController.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\VisitasEnfermeriumsController.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Controllers\\VisitasEnfermeriumsController.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Controllers\\VisitasEnfermeriumsController.cs",
+              "RelativeToolTip": "MvcEntity\\Controllers\\VisitasEnfermeriumsController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T20:08:24.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Pacientes\\Edit.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Pacientes\\Edit.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T16:45:21.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T19:52:21.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Program.cs",
+              "RelativeDocumentMoniker": "MvcEntity\\Program.cs",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Program.cs",
+              "RelativeToolTip": "MvcEntity\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T19:32:21.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Pacientes\\Index.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Pacientes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T20:06:23.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T20:15:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcEntity\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "MvcEntity\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T22:42:39.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcEntity\\appsettings.json",
+              "ToolTip": "D:\\Practicas .net\\MvcEntity\\MvcEntity\\appsettings.json",
+              "RelativeToolTip": "MvcEntity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-27T19:31:44.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+﻿@model IEnumerable<MvcEntity.Models.BonosFonasa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Create New</a>
+</p>
+<div class="container container-fluid">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RutBeneficiario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreBeneficiario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RutTitular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreTitular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RutPrestador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombrePrestador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrestacionMedica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nivel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Folio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaHoraIngreso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PagaVisita)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RutBeneficiario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreBeneficiario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RutTitular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreTitular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RutPrestador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombrePrestador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrestacionMedica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nivel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Folio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaHoraIngreso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PagaVisita)
+            </td>
+            <td>
+                <a class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdBonoFonasa">Edit</a> |
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.IdBonoFonasa">Details</a> |
+                <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.IdBonoFonasa">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
