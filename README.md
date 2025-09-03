@@ -27,7 +27,9 @@ Este controlador gestiona la relación de productos asignados a un usuario, vali
 | ----- | ----- | ----- | ----- | ----- | 
 | `POST` | `/api/usuarioproducto/listar` | Lista todos los productos asignados a un usuario. | `{ "User_Name": "string", "Pass": "string" }` | Un array de productos o un error `401 Unauthorized` si las credenciales son inválidas. | 
 | `POST` | `/api/usuarioproducto/asignar` | Asigna un producto a un usuario específico. | `{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }` | `200` OK con un mensaje de éxito. `401 Unauthorized` si las credenciales son inválidas. | 
-| `POST` | `/api/usuarioproducto/quitar` | Elimina la asignación de un producto a un usuario. | \`{ "User_Name": "string", "Pass": "string |  |
+| `POST` | `/api/usuarioproducto/quitar` | Elimina la asignación de un producto a un usuario. | \`{ "User_Name": "string", "Pass": "string |  | 
+
+
 ![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/a6b65caa-e641-408f-8f56-7ae031c93e27)
 
 ![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/de9cd4c6-8df2-4657-9061-26b2a0475489)
