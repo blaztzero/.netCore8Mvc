@@ -95,3 +95,12 @@ Este controlador expone una API para la gestión de las visitas de enfermería.
 | **DELETE**  | /api/VisitasEnfermeriums/{id}   | Elimina una visita por su ID.                   | No requiere                     | **204 No Content** en caso de éxito.       |
 
 ---
+
+
+![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/a6b65caa-e641-408f-8f56-7ae031c93e27)
+
+![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/de9cd4c6-8df2-4657-9061-26b2a0475489)
+
+![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/fd8f2c2b-af68-423f-82cc-ceb494428ed5)
+
+![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/f4eaf6ba-6feb-4cfa-90e9-64d658e7a9c7)
