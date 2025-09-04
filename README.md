@@ -1,40 +1,97 @@
-# API de Gestión de Usuarios y Productos
+# Aplicación Web MVC y API
 
-Esta es una API RESTful construida con ASP.NET Core que se encarga de gestionar información de usuarios y la asignación de productos a los mismos. La API está dividida en dos controladores principales: uno para la gestión general de usuarios y otro para la relación entre usuarios y productos.
+Esta es una aplicación web construida con **ASP.NET Core** que combina una interfaz de usuario tradicional basada en el patrón **MVC (Model-View-Controller)** con una **API RESTful** para gestionar datos.  
+La aplicación permite manejar registros de **pacientes, usuarios y bonos médicos**, exponiendo algunas funcionalidades como servicios de API.
 
-### Endpoints de la API
+---
 
-La API expone los siguientes endpoints para interactuar con los datos.
+## 🚀 Tecnologías Clave
 
-#### 1. Controlador de Usuarios (`api/usuarios`)
+- **ASP.NET Core**: Framework principal para construir la aplicación web y la API.  
+- **Entity Framework Core**: ORM (Object-Relational Mapper) que facilita la interacción con la base de datos mediante objetos C# en lugar de sentencias SQL.  
+- **SQL Server**: Sistema de gestión de bases de datos relacionales para el almacenamiento persistente de la información.  
 
-Este controlador permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre los usuarios, además de la funcionalidad de autenticación.
+---
 
-| Método HTTP | Endpoint | Descripción | Cuerpo de la Solicitud (Body) | Respuesta | 
-| ----- | ----- | ----- | ----- | ----- | 
-| `GET` | `/api/usuarios` | Obtiene una lista de todos los usuarios registrados. | No requiere | Un array de objetos `Usuario`. | 
-| `GET` | `/api/usuarios/{id}` | Obtiene un usuario específico por su ID. | No requiere | Un objeto `Usuario` si se encuentra, o un error `404 Not Found`. | 
-| `POST` | `/api/usuarios` | Crea un nuevo usuario. | Un objeto `Usuario` con los datos del nuevo usuario. | Un objeto `Usuario` con el ID asignado. | 
-| `PUT` | `/api/usuarios/{id}` | Actualiza un usuario existente. | Un objeto `Usuario` con los datos actualizados. | `204` No` Content` en caso de éxito. | 
-| `DELETE` | `/api/usuarios/{id}` | Elimina un usuario por su ID. | No requiere | `204 No Content` en caso de éxito. | 
-| `POST` | `/api/usuarios/login` | Autentica un usuario con sus credenciales. | `{ "User_Name": "string", "Pass": "string" }` | `200 OK` con un objeto `Usuario` si las credenciales son válidas, o `401 Unauthorized` si no lo son. | 
+## 📂 Controladores y Endpoints
 
-#### 2. Controlador de Productos de Usuario (`api/usuarioproducto`)
+A continuación se detalla la funcionalidad de cada controlador principal de la aplicación.
 
-Este controlador gestiona la relación de productos asignados a un usuario, validando las credenciales del usuario en cada solicitud.
+---
 
-| Método HTTP | Endpoint | Descripción | Cuerpo de la Solicitud (Body) | Respuesta | 
-| ----- | ----- | ----- | ----- | ----- | 
-| `POST` | `/api/usuarioproducto/listar` | Lista todos los productos asignados a un usuario. | `{ "User_Name": "string", "Pass": "string" }` | Un array de productos o un error `401 Unauthorized` si las credenciales son inválidas. | 
-| `POST` | `/api/usuarioproducto/asignar` | Asigna un producto a un usuario específico. | `{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }` | `200` OK con un mensaje de éxito. `401 Unauthorized` si las credenciales son inválidas. | 
-| `POST` | `/api/usuarioproducto/quitar` | Elimina la asignación de un producto a un usuario. | \`{ "User_Name": "string", "Pass": "string |  | 
+### 🌐 Controladores MVC
 
+Estos controladores gestionan las vistas y las interacciones del usuario a través de páginas web.
 
-![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/a6b65caa-e641-408f-8f56-7ae031c93e27)
+---
 
-![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/de9cd4c6-8df2-4657-9061-26b2a0475489)
+#### 1. Bonos Fonasa (`BonosFonasasController`)
 
-![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/fd8f2c2b-af68-423f-82cc-ceb494428ed5)
+Este controlador se encarga de la gestión completa de los bonos médicos, permitiendo operaciones CRUD (Crear, Leer, Actualizar, Borrar) a través de vistas.
 
-![image](https://github.com/blaztzero/.netCore8Mvc/assets/37011968/f4eaf6ba-6feb-4cfa-90e9-64d658e7a9c7)
+| Ruta (URL)                  | Acción            | Descripción                                   |
+|------------------------------|------------------|-----------------------------------------------|
+| **GET** /BonosFonasas       | Index            | Muestra una lista de todos los bonos Fonasa. |
+| **GET** /BonosFonasas/Details/{id} | Details | Muestra los detalles de un bono específico.   |
+| **GET** /BonosFonasas/Create | Create          | Muestra el formulario para crear un nuevo bono. |
+| **POST** /BonosFonasas/Create | Create         | Procesa el formulario para guardar un nuevo bono. |
+| **GET** /BonosFonasas/Edit/{id} | Edit         | Muestra el formulario para editar un bono.   |
+| **POST** /BonosFonasas/Edit/{id} | Edit        | Procesa la actualización de un bono.         |
+| **GET** /BonosFonasas/Delete/{id} | Delete     | Muestra la confirmación para eliminar un bono. |
+| **POST** /BonosFonasas/Delete/{id} | DeleteConfirmed | Procesa la eliminación de un bono. |
 
+---
+
+#### 2. Pacientes (`PacientesController`)
+
+Este controlador gestiona los registros de los pacientes del sistema.
+
+| Ruta (URL)                   | Acción           | Descripción                                    |
+|-------------------------------|-----------------|------------------------------------------------|
+| **GET** /Pacientes           | Index           | Muestra una lista de todos los pacientes.     |
+| **GET** /Pacientes/Details/{rut} | Details     | Muestra los detalles de un paciente por su RUT. |
+| **GET** /Pacientes/Create    | Create          | Muestra el formulario para registrar un nuevo paciente. |
+| **POST** /Pacientes/Create   | Create          | Procesa el formulario para guardar un nuevo paciente. |
+| **GET** /Pacientes/Edit/{rut} | Edit           | Muestra el formulario para editar un paciente. |
+| **POST** /Pacientes/Edit/{rut} | Edit          | Procesa la actualización de los datos de un paciente. |
+| **GET** /Pacientes/Delete/{rut} | Delete       | Muestra la confirmación para eliminar un paciente. |
+| **POST** /Pacientes/Delete/{rut} | DeleteConfirmed | Procesa la eliminación de un paciente. |
+
+---
+
+#### 3. Usuarios (`UsuariosController`)
+
+Este controlador se encarga de la gestión de las cuentas de usuario.
+
+| Ruta (URL)                   | Acción           | Descripción                                    |
+|-------------------------------|-----------------|------------------------------------------------|
+| **GET** /Usuarios            | Index           | Muestra una lista de todos los usuarios.      |
+| **GET** /Usuarios/Details/{id} | Details        | Muestra los detalles de un usuario por su ID. |
+| **GET** /Usuarios/Create     | Create          | Muestra el formulario para crear una nueva cuenta. |
+| **POST** /Usuarios/Create    | Create          | Procesa la creación de una nueva cuenta.      |
+| **GET** /Usuarios/Edit/{id}  | Edit            | Muestra el formulario para editar una cuenta. |
+| **POST** /Usuarios/Edit/{id} | Edit            | Procesa la actualización de una cuenta.       |
+| **GET** /Usuarios/Delete/{id} | Delete         | Muestra la confirmación para eliminar una cuenta. |
+| **POST** /Usuarios/Delete/{id} | DeleteConfirmed | Procesa la eliminación de una cuenta. |
+
+---
+
+### 📡 Controladores de la API RESTful
+
+Este controlador expone endpoints de API que devuelven datos en formato **JSON** y están diseñados para ser consumidos por otras aplicaciones.
+
+---
+
+#### 1. Visitas de Enfermería (`api/VisitasEnfermeriums`)
+
+Este controlador expone una API para la gestión de las visitas de enfermería.
+
+| Método HTTP | Endpoint                        | Descripción                                     | Cuerpo de la Solicitud (Body) | Respuesta                                   |
+|-------------|---------------------------------|-------------------------------------------------|--------------------------------|---------------------------------------------|
+| **GET**     | /api/VisitasEnfermeriums        | Obtiene una lista de todas las visitas de enfermería. | No requiere                     | Un array de objetos **VisitasEnfermerium**. |
+| **GET**     | /api/VisitasEnfermeriums/{id}   | Obtiene una visita específica por su ID.        | No requiere                     | Un objeto **VisitasEnfermerium** o **404 Not Found**. |
+| **POST**    | /api/VisitasEnfermeriums        | Crea una nueva visita.                          | Un objeto **VisitasEnfermerium** con los datos a guardar. | **201 Created** con la visita creada.       |
+| **PUT**     | /api/VisitasEnfermeriums/{id}   | Actualiza una visita existente.                 | Un objeto **VisitasEnfermerium** con los datos a actualizar. | **204 No Content** en caso de éxito.       |
+| **DELETE**  | /api/VisitasEnfermeriums/{id}   | Elimina una visita por su ID.                   | No requiere                     | **204 No Content** en caso de éxito.       |
+
+---
